@@ -18,3 +18,9 @@ function inputNumbers(newN1: number, newN2: number): void {
     console.log(`Числа заданы: n1 = ${n1}, n2 = ${n2}`);
 }
 inputNumbers(10, 5);
+
+function addNumbers(): void {
+    console.log(`Результат сложения: ${n1 + n2}`);
+}
+
+addNumbers();
