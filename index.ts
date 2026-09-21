@@ -12,3 +12,9 @@ function displayMenu(): void {
 
 displayMenu();
 
+function inputNumbers(newN1: number, newN2: number): void {
+    n1 = newN1;
+    n2 = newN2;
+    console.log(`Числа заданы: n1 = ${n1}, n2 = ${n2}`);
+}
+inputNumbers(10, 5);
