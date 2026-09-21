@@ -11,3 +11,8 @@ function displayMenu(): void {
 }
 
 displayMenu();
+
+function subtractNumbers(): void {
+    console.log(`Результат вычитания: ${n1 - n2}`);
+}
+subtractNumbers();
