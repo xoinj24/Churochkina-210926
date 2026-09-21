@@ -16,3 +16,17 @@ function subtractNumbers(): void {
     console.log(`Результат вычитания: ${n1 - n2}`);
 }
 subtractNumbers();
+
+function divideNumbers(): void {
+    if (n2 === 0) {
+        console.log("Ошибка: деление на ноль!");
+    } else {
+        console.log(`Результат деления: ${n1 / n2}`);
+    }
+}
+divideNumbers();
+
+function powerNumbers(): void {
+    console.log(`Результат возведения в степень: ${Math.pow(n1, n2)}`);
+}
+powerNumbers();
